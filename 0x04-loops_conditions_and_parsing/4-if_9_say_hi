@@ -5,6 +5,7 @@ while [ $a -lt 10 ]
 do
       if [ $a -eq 8 ]
       then
+            echo "Best School"
             echo "Hi"
             a=`expr $a + 1`
       else
