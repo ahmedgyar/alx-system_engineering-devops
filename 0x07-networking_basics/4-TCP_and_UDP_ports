@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# List all listening sockets along with the PID and name of the program
+echo "Listening sockets:"
+sudo netstat -lp
