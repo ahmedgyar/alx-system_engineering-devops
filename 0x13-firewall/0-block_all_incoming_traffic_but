@@ -2,6 +2,7 @@ i#!/usr/bin/env bash
 
 apt install ufw
 # Enable ufw
+ufw disable
 ufw enable
 
 # Deny all incoming traffic
