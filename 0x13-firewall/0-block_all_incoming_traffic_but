@@ -6,11 +6,12 @@ ufw enable
 
 # Deny all incoming traffic
 ufw default deny incoming
+ufw default allow outgoing
 
 # Allow incoming traffic on specific ports
 ufw allow 22/tcp
 ufw allow 80/tcp
 ufw allow 443/tcp
 
-# Allow all outgoing traffic
-ufw default allow outgoing
+# # Allow all outgoing traffic
+# ufw default allow outgoing
