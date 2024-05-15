@@ -16,3 +16,4 @@ ufw allow 443/tcp
 
 # # Allow all outgoing traffic
 # ufw default allow outgoing
+
